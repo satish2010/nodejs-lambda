@@ -4,8 +4,9 @@
   "description": "Node.js lambda",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "local": "node-lambda setup"
+    "test": "jest --coverage",
+    "setup": "node-lambda setup",
+    "local": "node-lambda run"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/satish2010/nodejs-lambda/issues"
   },
-  "homepage": "https://github.com/satish2010/nodejs-lambda#readme"
+  "homepage": "https://github.com/satish2010/nodejs-lambda#readme",
+  "devDependencies": {
+    "jest": "^29.0.1"
+  }
 }
