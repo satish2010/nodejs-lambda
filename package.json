@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-lambda",
+  "version": "1.0.0",
+  "description": "Node.js lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "local": "node-lambda setup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satish2010/nodejs-lambda.git"
+  },
+  "author": "Satish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satish2010/nodejs-lambda/issues"
+  },
+  "homepage": "https://github.com/satish2010/nodejs-lambda#readme"
+}
